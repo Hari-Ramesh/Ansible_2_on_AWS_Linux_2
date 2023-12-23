@@ -4,7 +4,9 @@ Installtion steps:
 3. Jenkins
 
 --------------------------------
-Uinstall ansible
+Uninstall setps:
+
+Ansible
 
 Here's how to uninstall Ansible on Amazon Linux 2023:
 
