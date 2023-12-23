@@ -1,4 +1,11 @@
+Installtion steps:
+1. Ansible 
+2. Tomcat
+3. Jenkins
+
+--------------------------------
 Uinstall ansible
+
 Here's how to uninstall Ansible on Amazon Linux 2023:
 
 1. Determine Installation Method:
