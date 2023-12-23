@@ -1,9 +1,9 @@
 # updating packages
 sudo yum update -y
 # Tomcat pre-required java
-amazon-linux-extras install java-openjdk11
+sudo dnf install java-11-amazon-corretto -y
 # Download tomcat 9.0.84
-weget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.84/bin/apache-tomcat-9.0.84.zip -O tomcat.zip
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.84/bin/apache-tomcat-9.0.84.zip -O tomcat.zip
 # unzip downloaded.zip
 #find . -type f -name "*.zip" -mtime -1 | xargs unzip 
 # Unzip the downloaded file directly to the target directory
